@@ -1,9 +1,84 @@
 <html>
     <head>
-        2_formatage
+        <!---        2_formatage-->
     </head>
     <body>
         Nous avons déjà vu trois balises de formatage. Le en texte en <b>gras</b>, en <i>italique</i>, ainsi que la balise pour effectuer <br> un retour <br>à la ligne.
-    <br><a href="3_sections.html">Cliquez sur ce lien.</a>
+        
+        En dehors des ces trois balises, retenons les balises suivantes :<br>
+        
+        <p>
+            La balise &<p></p>; permet de créer un nouveau paragraph dans la page.<br>
+            Un interligne espacera la paragraph entre ce qui le précède et ce qui le suit.
+        </p>
+        <p>
+            Les balises &<h1></h1>;, &<h2></h2>; jusqu'à &<h6></h6>; permettent de mettre un titre dans une certaine police.<br>
+            &<h1></h1>; utilise la plus grande police, &<h6></h6>; la plus petite. Exemple :
+            <h1>Voici un titre h1</h1>
+            <h2>Voici un titre h2</h2>
+            <h3>Voici un titre h3</h3>
+            <h4>Voici un titre h4</h4>
+            <h5>Voici un titre h5</h5>
+            <h6>Voici un titre h6</h6>
+            Constatez que les balises ci-dessus ont le même comportement que la balise de paragraph &<p></p>; sauf qu'elles utilisent
+            chacune une taille de police différente.
+        </p>
+        <p>
+            La balise &<pre>; permet d'écrire tout ce qui se trouve dans son corps de façon <i>verbatim</i>.<br>
+            Par exemple, <pre>je Peux 
+
+                éc ri r ce tt e pha     se de fa
+                        çon bizar     re mais elle sera rés titué <br>
+            de façon iden
+
+             ti que .</pre>
+        </p>
+        <p>
+            Ensuite il y a la balise &<code>;.
+            <code>
+                Ceci est un morceau de code informatique :<br><br>
+                printf("Hello world!\n");<br>
+                <pre>
+                int F_0=0;
+                int F_1=1;
+                int i=0;
+                do{
+                    i++;
+                    ;
+                    f_1=f_0+F_1;
+                    printf("%d\n", Fib);
+                }while(i<10000000);
+            </code> 
+        </p>
+        <p>
+            Finalement faisons connaissance des "espaces insécable". Les espaces insécables permettent d'avoir plusieurs espaces entre les mots, qui seraient autrefois ignorer dans l'éditeur de texte. Voyez par vous même :<br>
+            &Par exemple, <pre>je Peux 
+
+                éc ri r ce tt e pha     se de fa
+                        çon bizar     re mais elle sera rés titué <br>
+            de façon identique...;
+        </p>
+        <p>
+            La balise &</hr>; affiche une ligne horizontale.
+            </hr>
+        </p>
+        <p>
+            La balise "address" &<address>;
+            <address>
+                Eric Sarrion
+                15 rue de Saint Ouen
+                75019 Paris
+            </address> 
+        </p>
+        <p>
+            La balise &<samp>; qui met le texte au format défini par défaut des exemples.
+            <samp>Voici un exemple.</samp>
+        </p>
+        <p>
+            La balise &<var>; qui met le text au format défini par défaut des variables.
+            <var>Voici une variable a.</var>
+        </p>
+
+        <br><br><a href="3_sections.html">Cliquez sur ce lien.</a>
     </body>
 </html> 
