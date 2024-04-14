@@ -1,3 +1,8 @@
+.frame      /* définition d une classe cadre */
+{
+    background-color: gainsboro
+}
+
 div{
     padding-left: 70px;
 }
