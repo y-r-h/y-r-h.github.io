@@ -1,0 +1,55 @@
+#menu
+{
+    float:          left;
+    margin-top:     10px;
+}
+
+#menu a
+{
+    text-decoration:        none;
+    text-align:             center;
+    background-image:       url(menu.jpg);
+    border-style:           solid;
+    border-width:           1px;
+    border-color:           silver;
+
+    padding:        0px 15px 0px 15px;
+
+    color:              black;
+    font-family:        "MS trebuchet";
+    font-weight:        bold;
+}
+
+#menu a:hover
+{
+    background-image:       url(menu2.jpg);
+    color:                  red;
+}
+
+div.Entete
+{
+    text-align:         center;
+    border-style:       solid;
+    border-width:       1px 1px 1px 1px;
+    padding:            5px;
+    font-family:        arial;
+    font-size:          20px;
+    font-weight:        bold;
+}
+
+div.Pied
+{
+    border-style:       solid;
+    border-width:       1px;
+    margin-top:         -10px;
+    padding-bottom:     0px;
+}
+
+div.PageHtml
+{
+    margin-top:         -10px;
+    margin-left:        2.2cm;
+    padding-left:       10px;
+    border-left:        2px solid black;
+    background-color:   gainsboro;
+} 
