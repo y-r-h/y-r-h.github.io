@@ -1,3 +1,11 @@
+#menu ul
+{
+    width:              2cm;
+    list-style-type:    none;
+    margin:             0px;
+    padding:            0px;
+}
+
 #menu ul li
 {
     width:      100%;
@@ -26,7 +34,7 @@
 
 #menu ul li>a
 {
-    width:      auto;
+    width:              auto;
 }
 
 #menu ul li a:hover
